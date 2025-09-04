@@ -8,7 +8,10 @@ function App() {
   const addValue = () => {
     // counter = counter + 1;
     console.log("clicked ", Math.random());
-    setCounter(counter + 1);
+    setCounter((prevCounter)=>prevCounter+1);
+    setCounter((prevcounter)=>prevcounter+1);
+    setCounter((prevcounter)=>prevcounter+1);
+    setCounter((prevcounter)=>prevcounter+1);
   };
 
   const removeValue = () => {
